@@ -7,7 +7,7 @@ const getMultipleVersionsQuery = `
       packages(first: 20, names: $names) {
         nodes {
           name
-          versions(last: 100, orderBy: {field: CREATED_AT, direction: DESC}) {
+          versions(first: 100, orderBy: {field: CREATED_AT, direction: DESC}) {
             nodes {
               id
               version

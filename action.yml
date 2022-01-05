@@ -1,6 +1,6 @@
-name: Delete old packages
+name: Delete new packages
 
-description: Deletes old package versions
+description: Deletes new package versions
 
 inputs:
   owner:

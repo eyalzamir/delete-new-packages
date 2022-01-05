@@ -1,6 +1,6 @@
 {
   "name": "delete-new-packages",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GitHub Action for deleting old packages",
   "main": "dist/index.js",
   "repository": "https://github.com/SmartsquareGmbH/delete-old-packages",
